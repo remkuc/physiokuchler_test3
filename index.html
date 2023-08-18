@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physiothérapie Kuchler</title>
+ 
+    <link rel="stylesheet" href="css/css_page_acceuil.css">
+    <script>
+        // JavaScript code to scroll to the top of the page on menu link click
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuLinks = document.querySelectorAll('#menu a');
+
+            menuLinks.forEach(link => {
+                link.addEventListener('click', function (event) {
+                    event.preventDefault();
+                    const targetElement = document.querySelector(link.getAttribute('href'));
+                    const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+                    window.scroll({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+
+<h1 id="acceuil">Cabinet de Physiothérapie Kuchler</h1>
+
+<header>
+    <nav>
+        <ul id="menu">
+            <li><a href="#acceuil">Acceuil</a></li>
+            <li><a href="#nos_pratiques">Nos pratiques</a></li>
+            <li><a href="#qui_sommes_nous">Qui sommes-nous</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div id="info_physio">
+    <p>Par la physiothérapie nous vous proposons un traitement individuel adapté à vos besoins. Nos thérapeutes
+        expérimentés dans les techniques manuelles et leur maîtrise de nos appareils modernes vous assurent un
+        résultat de qualité. Le fitness médical mis à disposition vous permet également de prolonger vos séances ou
+        d'intensifier votre entrainement. La physiothérapie est une discipline de première ligne dont le rôle est de
+        vous permettre de retrouver le maximum de vos capacités physiques, que ce soit dans vos activités quotidiennes,
+        votre travail ou votre sport. La physiothérapie favorise ainsi votre autonomie tout en vous permettant de
+        rester actif dans votre vie personnelle et sociale.</p>
+</div>
+
+<div id="nos_pratiques">
+    <h2>Nos pratiques</h2>
+    <div id="differentes_manieres">
+        <img src="photo/image_therapie_manuelle.png" alt="Thérapies manuelles">
+        <p>Thérapies manuelles(SAMT, Maitland)</p>
+
+        <img src="photo/image_triggerpoint.png" alt="Triggerpoint">
+        <p>Triggerpoint</p>
+
+        <img src="photo/image_Pelvi-Perinélogie.jpg" alt="Pelvi-Perinélogie">
+        <p>Pelvi-Perinélogie</p>
+
+        <img src="photo/image_drainage_lymphatique.png" alt="Drainage Lymphatique">
+        <p>Drainage Lymphatique</p>
+
+        <img src="photo/image_crochetage.png" alt="Crochetage">
+        <p>Crochetage</p>
+    </div>
+</div>
+
+<div id="qui_sommes_nous">
+    <h2>Qui sommes nous ?</h2>
+    <div id="personnes">
+        <div id="carine">
+            <img src="photo/20220127_084110.jpg" alt="photo profil">
+            <h3>Carine Kuchler</h3>
+            <p>Résumé de la personne...----------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+        </div>
+        <div id="christophe">
+            <img src="photo/20220127_083846.jpg" alt="photo profil">
+            <h3>Christophe Kuchler</h3>
+            <p>Résumé de la personne...----------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+        </div>
+    </div>
+</div>
+
+<div id="contact">
+    <h2>Comment nous contacter</h2>
+    <div id="contacte">
+        <p id="contacter">Vous pouvez nous contacter par téléphone ou par mail</p>
+        <a id="info" href="tel:+0273221888">Téléphone : 027 322 18 88</a>
+        <a id="info" href="mailto:c.kuchler@in-physio.ch">Mail : c.kuchler@in-physio.ch</a>
+        <p id="horraire">Nos horaires 8h à 12h-13h à 16h</p>
+    </div>
+</div>
+
+<div id="map">
+    <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.1234567890123!2d7.3580592!3d46.2289889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478edc2527523be1%3A0xc2c3fb47ff7735bb!2sChristophe%20Kuchler!5e0!3m2!1sen!2sch!4v1628088476040!5m2!1sen!2sch" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Nos horaires</h3>
+                <p>Du lundi au vendredi</p>
+                <p>8h - 12h et 13h30 - 17h30 </p>
+            </div>
+            <div class="footer-section">
+                <h3>Nous contacter</h3>
+                <p> c.kuchler@in-physio.ch ou 027 322 18 88.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Physiothérapie Kuchler. Tous droits réservés.</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

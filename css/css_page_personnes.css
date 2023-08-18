@@ -1,0 +1,178 @@
+body{
+    background-color: rgb(105, 97, 97);
+}
+
+
+h1{
+    font-size:3em;
+    color: rgb(3, 84, 3);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-size: 2em;
+}
+
+#menu{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+header {
+    background-color: #897c7c;
+    padding: 2em;
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 1em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgb(22, 54, 22);
+}
+
+
+
+
+
+
+#info_physio{
+    font-size:x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2em;
+    margin-bottom: 7em;
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+
+
+  #personnes{
+    background-color:rgb(63, 57, 57);
+    width: 80em;
+    height: 80em;
+    margin: auto;
+    border-radius: 1em;
+    border:  1px solid black;
+    margin-bottom: 10em;
+}
+
+
+
+#carine img{
+  width: 23em;
+  height: 21em;
+  float: left;
+  margin-left: 2em;
+  margin-right: 0%;
+}
+
+#carine h3{
+  font-size: 2.5em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 9em;
+  padding-left: 2.5em;
+  margin-bottom: 3em;
+  margin-right: 0%;
+}
+
+#carine p{
+  font-size: 1.5em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 20em;
+  margin-top: -21em;
+  margin-bottom: 21em;
+}
+
+#christophe img{
+    width: 23em;
+    height: 21em;
+    float: left;
+    margin-left: 2em;
+  }
+  
+  #christophe h3{
+    font-size: 2.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 9em;
+    padding-left: 1.3em;
+   
+  }
+  
+  #christophe p{
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20em;
+    margin-top: -17em;
+    margin-bottom: 21em;
+  }
+
+
+
+
+
+
+
+footer {
+    background-color: #897c7c;
+    padding: 20px 0;
+  }
+  
+  .container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1 0 30%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
